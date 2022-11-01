@@ -1,6 +1,6 @@
 FROM python:3.8-alpine
 
-COPY ddns.py /app
+COPY . /app
 
 RUN pip install cloudflare==2.10.2
 
