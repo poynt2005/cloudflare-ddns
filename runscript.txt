@@ -1,0 +1,7 @@
+docker run \
+    --rm \
+    -e CLOUDFLARE_DNS_API_KEY=<Your_Cloudflare_Api_Key> \
+    -e CLOUDFLARE_DNS_ZONE_NAME=<Your_Cloudflare_Main_Domain_Name> \
+    -e CLOUDFLARE_DNS_SUBDOMAIN_NAME=<Your_Cloudflare_Subdomain_Name> \
+    -it \
+    poynt2005/cloudflare-ddns
